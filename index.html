@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashoka Bhat | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container nav-content">
+            <div class="logo">AB<span>.dev</span></div>
+            <button class="mobile-toggle" onclick="toggleMenu()">
+                <!-- Menu Icon SVG -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="active">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="status-badge">Available for Opportunities</div>
+            <h1>Hi, I'm <span>Ashoka Bhat</span></h1>
+            <p>Computer Science Engineer specializing in <span style="color:white">Full Stack Development</span>, <span style="color:white">System Security</span>, and <span style="color:white">AI Integration</span>.</p>
+            
+            <div class="hero-actions">
+                <a href="mailto:ashokabhatfsd@gmail.com" class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                    Contact Me
+                </a>
+                <a href="https://github.com/ASHOKABHAT69" target="_blank" class="btn btn-outline">GitHub</a>
+                <a href="https://linkedin.com/in/ashoka-b-214299266" target="_blank" class="btn btn-outline">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Arsenal</h2>
+                <div class="divider"></div>
+                <p>Tools & Technologies I work with</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Card 1 -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                        </div>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Kotlin</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">C/C++</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                        </div>
+                        <h3>Frameworks & Cloud</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">Firebase</span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+                        </div>
+                        <h3>Specialized APIs</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Gemini API</span>
+                        <span class="tag">SmartAPI (Angel One)</span>
+                        <span class="tag">Google Lighthouse</span>
+                        <span class="tag">WebSockets</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" style="background-color: #020617;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Work Experience</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="role-title">Campus Ambassador</h3>
+                                <div class="company-name">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                                    GeeksforGeeks
+                                </div>
+                            </div>
+                            <span class="period">Mar 2024 - April 2025</span>
+                        </div>
+                        <ul class="exp-list">
+                            <li><span class="bullet">•</span> Boosted student engagement by 80% through targeted workshops and referral campaigns.</li>
+                            <li><span class="bullet">•</span> Optimized university outreach reducing ad costs by 25% using data-driven insights.</li>
+                            <li><span class="bullet">•</span> Advised management on course selection based on LinkedIn Analytics.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div>
+                                <h3 class="project-title">Stock Surge</h3>
+                                <p class="project-subtitle">Stock Market Companion</p>
+                            </div>
+                            <a href="https://github.com/ASHOKABHAT69" target="_blank" class="btn-outline" style="padding: 5px; border-radius: 5px;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                        <p class="project-desc">Full-stack platform for real-time stock volume surge alerts. Integrated real-time streaming via WebSockets and AI insights using Gemini.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">Gemini API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div>
+                                <h3 class="project-title">SecureScan360</h3>
+                                <p class="project-subtitle">Automated Web Security</p>
+                            </div>
+                            <a href="https://github.com/ASHOKABHAT69" target="_blank" class="btn-outline" style="padding: 5px; border-radius: 5px;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                        <p class="project-desc">A real-time website audit platform measuring Security, Performance, and SEO. Features a live terminal dashboard.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">Lighthouse</span>
+                            <span class="project-tag">React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div>
+                                <h3 class="project-title">KenKen Encryption</h3>
+                                <p class="project-subtitle">Novel Cryptography</p>
+                            </div>
+                            <a href="https://github.com/ASHOKABHAT69" target="_blank" class="btn-outline" style="padding: 5px; border-radius: 5px;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                        <p class="project-desc">Lightweight cryptographic system for resource-constrained devices using chaotic maps and puzzles.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">C</span>
+                            <span class="project-tag">Cryptography</span>
+                            <span class="project-tag">Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Awards -->
+    <section id="education" style="background-color: #020617;">
+        <div class="container">
+            <div class="edu-awards-grid">
+                <!-- Education -->
+                <div>
+                    <div class="section-title" style="text-align: left; margin-bottom: 2rem;">
+                        <h2 style="font-size: 2rem;">Education</h2>
+                    </div>
+                    <div class="edu-card">
+                        <div style="display:flex; justify-content:space-between; margin-bottom: 1rem;">
+                            <h3 style="font-size: 1.25rem;">B.E. Computer Science</h3>
+                            <span style="color:var(--text-accent);">2023 - Present</span>
+                        </div>
+                        <p style="color: var(--text-muted); margin-bottom: 1rem;">Jawaharlal Nehru National College of Engineering, Shimoga</p>
+                        <span class="tag" style="background: var(--bg-body);">CGPA: 8.63/10</span>
+                        <p style="color: var(--text-muted); margin-top: 1rem; font-size: 0.9rem;">Relevant Coursework: Software Engineering, AI, OOP, Databases.</p>
+                    </div>
+                </div>
+
+                <!-- Awards -->
+                <div>
+                    <div class="section-title" style="text-align: left; margin-bottom: 2rem;">
+                        <h2 style="font-size: 2rem;">Awards</h2>
+                    </div>
+                    <div class="award-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#facc15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        <span>1st Prize in Android Development Hackathon</span>
+                    </div>
+                    <div class="award-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        <span>Silver Medal in Demystifying Networks - NPTEL</span>
+                    </div>
+                    <div class="award-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        <span>Cloud Bootcamp Workshop - GeeksforGeeks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="contact-grid">
+                <a href="mailto:ashokabhatfsd@gmail.com" class="contact-box">
+                    <div class="contact-icon-circle">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </div>
+                    <h3>Email Me</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">ashokabhatfsd@gmail.com</p>
+                </a>
+
+                <a href="tel:9482269540" class="contact-box">
+                    <div class="contact-icon-circle" style="background: rgba(168, 85, 247, 0.1); color: #c084fc;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    </div>
+                    <h3>Call Me</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">+91 94822 69540</p>
+                </a>
+            </div>
+
+            <footer>
+                <p>&copy; 2025 Ashoka Bhat. All rights reserved.</p>
+            </footer>
+        </div>
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
